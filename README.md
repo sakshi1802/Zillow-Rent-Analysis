@@ -49,5 +49,10 @@ Python, pandas, NumPy, matplotlib, seaborn, Jupyter. Apify for data collection.
 
 One 2025 snapshot of asking rents, not signed leases. Cities with fewer than 25 listings were left out of the city comparison. Building prices are "starting from" prices. The data has no amenities such as parking or laundry.
 
-#Files
+## Files
 
+- **`zillow-rent-analysis.ipynb`**: The main Jupyter Notebook containing the full data cleaning, exploratory analysis, and visualization pipeline.
+- **`Zillow Rent Data.xlsx - Data.csv`**: Uncleaned, raw, and as-is web-scraped dataset (2500 rows, 300 cols).
+- **`listings_clean.csv`**: Cleaned dataset containing 1,892 individual rental listings with engineered features for downstream analysis.
+- **`building_units_clean.csv`**: Reshaped dataset containing unit-level starting price tiers for 604 apartment buildings.
+- **`Plot images/`**: Directory containing all 5 generated visualization charts (`.png` files) referenced in this README.
