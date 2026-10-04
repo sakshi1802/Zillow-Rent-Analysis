@@ -1,6 +1,8 @@
 # Zillow-Rent-Analysis
 Cleaning a messy, real-world Zillow scrape and answering five business questions about rent in Southern Californian cities.
 
+Analysis can be also viewed on Kaggle: [https://www.kaggle.com/sv1802](https://www.kaggle.com/code/sv1802/zillow-rent-analysis)
+
 ## Problem
 
 Rent depends on many things at once: home size, location, and how fast a listing moves. Looking at raw rent numbers hides this. A city can look expensive just because its homes are big. This project cleans a raw web-scraped dataset and answers: **what actually drives rent, and where is the market expensive or competitive?**
@@ -47,4 +49,5 @@ Python, pandas, NumPy, matplotlib, seaborn, Jupyter. Apify for data collection.
 
 One 2025 snapshot of asking rents, not signed leases. Cities with fewer than 25 listings were left out of the city comparison. Building prices are "starting from" prices. The data has no amenities such as parking or laundry.
 
+#Files
 
