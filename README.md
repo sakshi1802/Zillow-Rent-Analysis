@@ -13,7 +13,7 @@ Rent depends on many things at once: home size, location, and how fast a listing
 - Raw size: 2,500 rows and 300 columns. After cleaning: 1,892 rental listings plus 604 apartment buildings analyzed separately.
 - Dataset on Kaggle: [zillow-rental-market-data-california-2025](https://www.kaggle.com/datasets/sv1802/zillow-rental-market-data-california-2025)
 
-## Cleaning (the hard part)
+## Cleaning
 
 - Cut **300 columns down to 23**, one documented reason at a time (163 were photo links).
 - Found that the "missing" rents were not errors: 604 rows are apartment buildings that list starting prices per unit type, so I split them into two tables and reshaped the building prices.
@@ -48,6 +48,13 @@ Python, pandas, NumPy, matplotlib, seaborn, Jupyter. Apify for data collection.
 ## Limits
 
 One 2025 snapshot of asking rents, not signed leases. Cities with fewer than 25 listings were left out of the city comparison. Building prices are "starting from" prices. The data has no amenities such as parking or laundry.
+
+## Project Overview & Scope
+
+- **Status:** Complete (Exploratory Data Analysis & Data Cleaning Pipeline)
+- **Geographic Scope:** Southern California (45 cities)
+- **Dataset Scope:** 2,500 raw scraped Zillow listings cleaned into 1,892 individual rentals and 604 apartment building pricing tiers
+- **Methodology:** Data cleaning (schema standardization, missing value categorization, outlier filtering using IQR), exploratory data analysis (EDA), and non-parametric statistical metrics (medians over means)
 
 ## Files
 
